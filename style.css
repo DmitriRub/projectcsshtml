@@ -1,0 +1,50 @@
+.container{
+    margin: 0 auto;
+    width: 310px;
+}
+
+.main-loyalty{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    color: lightgrey;
+
+}
+
+
+.pluses-product-item{
+    width: 100%;
+    min-height: 30px;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.pluses-product-item-title{
+    display: block;
+    outline: none;
+    position: relative;
+}
+
+.pluses-product-item-title::-webkit-details-marker {
+    display: none
+}
+
+.pluses-product-item-title:before{
+    content: "+";
+    display: block;
+    width: 34px;
+    height: 32px;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
